@@ -14,14 +14,13 @@ const App = () => (
         <Hero />
       </div>
     </div>
-    
+    {/* Hello Aduu */}
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Overview />
         <Verification />
         <CardDeal />
         <Testimonials />
-        {/* <Clients /> */}
         <CTA />
         <Footer />
       </div>
